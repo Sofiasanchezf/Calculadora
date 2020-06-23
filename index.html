@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css"  rel="stylesheet">
+    <title>Calculadora Basica</title>
+</head>
+<body>
+    <div id="c-h">
+        <div id="calculadora">
+            <div class ="titulo"><span>CALCULADORA BÁSICA</span></div>
+            <div id="resultado"></div>
+            <div class ="teclado">
+                <div class="fila">
+                    <button onclick="numero(1)">1</button>
+                    <button onclick="numero(2)">2</button>
+                    <button onclick="numero(3)">3</button>
+                    <button onclick="mas()">+</button>
+                </div>
+                <div class="fila">
+                    <button onclick="numero(4)"id="n4">4</button>
+                    <button onclick="numero(5)">5</button>
+                    <button onclick="numero(6)">6</button>
+                    <button onclick="menos()">-</button>
+                </div>
+                <div class="fila">   
+                    <button onclick="numero(7)">7</button>
+                    <button onclick="numero(8)">8</button>
+                    <button onclick="numero(9)">9</button>
+                    <button onclick="por()">*</button>
+                </div>
+                <div class="fila">
+                    <button onclick="numero(0)">0</button>
+                    <button onclick="punto()">.</button>
+                    <button onclick="reset()">C</button>
+                    <button onclick="division()">/</button>
+                </div>
+                <div class="fila"> 
+                    <button class ="btn-largo" onclick="igual()">=</button>
+                </div>
+            </div>
+        </div>
+        <div id="historial">
+            <div class ="titulo"><span>HISTORIAL DE OPERACIONES</span></div>
+            <div id="operaciones"></div>
+            <div class="fila"><button class ="btn-largo" onclick="limpiarHistorial()">Limpiar historial</button></div>
+            <!-- <button class ="btn-largo" id="limpiar">Limpiar historial</button> -->
+            
+        </div>
+    </div>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>

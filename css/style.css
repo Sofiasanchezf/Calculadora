@@ -1,0 +1,102 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+#resultado {
+    background-color: white;
+    border: 0.5px solid grey;
+    /* border-radius: 15px; */
+    height: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+#c-h {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    height: 35em;
+    
+}
+
+#calculadora {
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    background-color: #3D3D3D;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    align-items: center;
+    
+}
+
+#historial {
+    width: 15em;
+    padding: 3em;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    margin-left: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+
+#operaciones {
+    border: 0.5px solid grey;
+    overflow-y: auto;
+    height: 100%;
+    background-color: white;
+}
+
+.titulo {
+    background-color: #FFEB6A;
+    /* border-radius: 15px; */
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.teclado {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+
+
+.fila {
+    display: flex;
+}
+.fila :last-child{
+    background-color: #FFEB6A;
+}
+
+button {
+    border-radius: 15px;
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #ECECEC;
+    margin: 0.5em;
+    outline: none;
+    font-family: Verdana, sans-serif;
+}
+.fila > button:hover{
+    background-color: #FF8181;
+}
+
+.btn-largo {
+    width: 100%;
+    background-color: #FFEB6A;
+}
+
+
+
+
+
