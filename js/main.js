@@ -57,7 +57,7 @@ function mas() {
         operacion = '+';
         total.innerHTML = total.innerHTML + operacion;
         flag = 0;
-        
+        flagPunto = 1;
     }
 }
 
@@ -72,6 +72,7 @@ function menos() {
         operacion = '-'
         total.innerHTML = total.innerHTML + operacion;
         flag = 0;
+        flagPunto = 1;
     }
 }
 
@@ -87,6 +88,7 @@ function por(){
         operacion = '*'
         total.innerHTML = total.innerHTML + operacion;
         flag = 0;
+        flagPunto = 1;
     }
 }
 
@@ -101,6 +103,7 @@ function division(){
         operacion = '/'
         total.innerHTML = total.innerHTML + operacion;
         flag = 0;
+        flagPunto = 1;
     }
 }
 
